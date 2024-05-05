@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear cuenta</title>
+    <link rel="stylesheet" href="css/styleLocalS.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/faviconBelleza.png" type="image/png">
+    
+</head>
+<body>
+   
+    <div class="wrapper">
+        <form action="#" id="signupForm"> 
+            <h1>Registro</h1>
+            <div class="input-box">
+                <input type="text" placeholder="Nombre" id="name" required autofocus>
+                <i class='bx bx-user'></i>
+            </div>
+            
+            <div class="input-box">
+                <input type="email" placeholder="Correo" id="email" required>
+                <i class='bx bx-envelope' ></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" placeholder="Contraseña" id="password" required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <!-- <div class="remember-forgot">
+                <label> <input type="checkbox">
+                   Recordar
+                </label>
+                <a href="#">Olvide contaseña!</a>
+            </div> -->
+            <input type="submit" value="Registrar" class="btn">
+            <!-- <button type="button" class="btn">Registrar</button> -->
+
+            <div class="registrer-link">
+                <p>Ya tengo una cuenta volvder a! <a href="login.html">iniciar sesion!</a></p>
+            </div>
+
+        </form>
+
+    </div>
+    <script src="/js/signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
