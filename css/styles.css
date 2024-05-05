@@ -34,7 +34,14 @@ header{
     justify-content: space-between;
     padding: 30px 0 40px 0;
 }
-
+header button {
+    border-width: 5px;
+    border-color: #6b6262;
+    border-radius: 300px;
+    background-color:#0a0a0a;
+    color: #fff;
+    }
+    
 .container-icon{
     position: relative;
 }
